@@ -48,34 +48,47 @@ The primarly objective of this crop recommendation system is to provide accurate
    The average NPK (Nitrogen, Phosphorus, and Potassium) levels vary significantly across different crop types, highlighting the unique nutrient requirements of each. Among all crops analyzed, Millet, Barley, and Oil Seeds recorded the highest concentrations of soil nutrients, indicating that these crops either require or thrive in more nutrient rich conditions.
 This variation is crucial for developing targeted fertilizer recommendations. For instance, high NPK-demand crops like millet and barley may need nutrient-enriched soils, while crops with lower NPK needs can be grown on less fertile soils to avoid over-fertilization.
 
-# 2. Which crops are most commonly represented in the dataset?
+### 2. Which crops are most commonly represented in the dataset?
    
   📊 Insight:
+  ![crop_distribution](https://github.com/user-attachments/assets/81b2e1d8-9537-4534-b8f6-d33847c77bd1)
+
  The bar chart illustrates the most frequently represented crops in the dataset, with Maize, Wheat, and Sugarcane emerging as the dominant types. Their high frequency suggests that these crops are likely of major economic and agricultural importance in the region where the data was collected. Identifying these key crops allows for focused soil treatment strategies, resource allocation, and targeted extension services. By prioritizing analysis and support for widely cultivated crops, policymakers and agronomists can make more impactful decisions.
  
-# 3. What is the distribution of soil types across all crop samples?
+### 3. What is the distribution of soil types across all crop samples?
    
    📊 Insight: 
   
   The dataset features a variety of soil types, but clayey and black soils appear most frequently, indicating they are widely used for cultivation in the region. These soils are known for their high nutrient-holding capacity and moisture retention, making them suitable for a range of crops. Understanding the prevalence of these soil types helps in designing location-specific soil management practices and ensuring the right crops are matched to the right soil characteristics.
 
-# 4. What is the typical pH range of the soils in the dataset, and are they suitable for common crpos?
+### 4. What is the typical pH range of the soils in the dataset, and are they suitable for common crpos?
    
    📊 Insight:
-   
+   ![Distribution of soil](https://github.com/user-attachments/assets/a373ae7b-c4aa-4121-985c-285aa63c9c81)
+
 This histogram displays the distribution of soil pH values in the dataset. Most soil samples fall within a pH range of 5.5 to 7.0, which is generally favorable for crop growth. A pH range between 6.0 and 6.5 is often considered optimal, so it's encouraging that many samples lie within this window. However, a few samples fall into acidic (<5.5) or alkaline (>7.5) ranges, which may require soil treatment like limimg for optimal crop performance.
    
-# 5. How does environmental factors (Temperature, Moisture, Humidity) influence soil nutrient levels (N, P, K)?
+### 5. How does environmental factors (Temperature, Moisture, Humidity) influence soil nutrient levels (N, P, K)?
 
   📊 Insight:
   ![correlation_heatmap](https://github.com/user-attachments/assets/d824cf7b-3fac-43c6-b582-929ca0065088)
+    Environmental Factors and Nutrient Correlation
+    The analysis reveals that moisture levels negatively correlate with nitrogen but positively correlate with phosphorus and potassium. This suggests that while wetter soils may help retain phosphorus and potassium, they can also contribute to nitrogen leaching, reducing nitrogen availability for crops.
+- In contrast, temperature and humidity show weak to moderate correlations with soil nutrient levels, indicating they have limited direct effects. However, their indirect impact such as influencing microbial activity, nutrient mineralization, and evaporation—should not be overlooked, especially in region with low climate condition.
 
+6. How do Nitrogen levels vary between different crop types?
+
+#  📊 Insight:
+![nitrogen_boxplot](https://github.com/user-attachments/assets/83944b1d-a653-4d24-8deb-9947954fb041)
+
+   This boxplot compares the distribution of nitrogen content across different crops. Crops like millet, maize and sugercane tend to require higher nitrogen levles as seen from their median values. others like barley, cotton show lower nitrogen dependency. Understanding nutrient requirements per crop helps in making informed fertilizer application decisions, improving yield and reducing waste.
+   
+7. How do Phosphorus levels vary between different crop types?
 
 ## ✅ RECOMMENDATION
 
 # 👨‍🌾 For Farmers
-- Crop rotation is a powerful and sustainable farming practice, To maintain soil fertility and improve nutrient balance, farmers should adopt strategic crop rotation based on the unique NPK demands of each crop. Alternate nitrogen-demanding crops (e.g., maize, wheat, sugarcane) with nitrogen-fixing legumes (e.g., beans, groundnuts).
-➤ This naturally replenishes nitrogen in the soil, reducing the need for synthetic fertilizers.
+- Crop rotation is a powerful and sustainable farming practice, To maintain soil fertility and improve nutrient balance, farmers should adopt strategic crop rotation based on the unique NPK demands of each crop. Alternate nitrogen-demanding crops (e.g., maize, wheat, sugarcane) with nitrogen-fixing legumes (e.g., beans, groundnuts). This naturally replenishes nitrogen in the soil, reducing the need for synthetic fertilizers.
 
 - Adopt crop specific fertilization: Apply NPK fertilizers based on the crop’s average nutrient requirements rather than using general-purpose blends.
 
