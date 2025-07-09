@@ -51,6 +51,7 @@ This variation is crucial for developing targeted fertilizer recommendations. Fo
 ### 2. Which crops are most commonly represented in the dataset?
    
   📊 Insight:
+  
   ![crop_distribution](https://github.com/user-attachments/assets/81b2e1d8-9537-4534-b8f6-d33847c77bd1)
 
  The bar chart illustrates the most frequently represented crops in the dataset, with Maize, Wheat, and Sugarcane emerging as the dominant types. Their high frequency suggests that these crops are likely of major economic and agricultural importance in the region where the data was collected. Identifying these key crops allows for focused soil treatment strategies, resource allocation, and targeted extension services. By prioritizing analysis and support for widely cultivated crops, policymakers and agronomists can make more impactful decisions.
@@ -58,12 +59,14 @@ This variation is crucial for developing targeted fertilizer recommendations. Fo
 ### 3. What is the distribution of soil types across all crop samples?
    
    📊 Insight: 
+   
    The dataset features a variety of soil types, but clayey and black soils appear most frequently, indicating they are widely used for cultivation in the region. These soils are known for their high nutrient-holding capacity and moisture retention, making them suitable for a range of crops. Understanding the prevalence of these soil types helps in designing location-specific soil management practices and ensuring the right crops are matched to the right soil characteristics.
 
 ### 4. What is the typical pH range of the soils in the dataset, and are they suitable for common crpos?
    
    📊 Insight:
-    ![Distribution of soil](https://github.com/user-attachments/assets/a373ae7b-c4aa-4121-985c-285aa63c9c81)
+   
+   ![Distribution of soil](https://github.com/user-attachments/assets/a373ae7b-c4aa-4121-985c-285aa63c9c81)
 This histogram displays the distribution of soil pH values in the dataset. Most soil samples fall within a pH range of 5.5 to 7.0, which is generally favorable for crop growth. A pH range between 6.0 and 6.5 is often considered optimal, so it's encouraging that many samples lie within this window. However, a few samples fall into acidic (<5.5) or alkaline (>7.5) ranges, which may require soil treatment like limimg for optimal crop performance.
    
 ### 5. How does environmental factors (Temperature, Moisture, Humidity) influence soil nutrient levels (N, P, K)?
@@ -78,9 +81,28 @@ This histogram displays the distribution of soil pH values in the dataset. Most 
    
 #  📊 Insight:
 ![nitrogen_boxplot](https://github.com/user-attachments/assets/d1905abf-ea0e-412f-894f-28a5bdaa706c)
- This boxplot compares the distribution of nitrogen content across different crops. Crops like millet, maize and sugercane tend to require higher nitrogen levles as seen from their median values. others like barley, cotton show lower nitrogen dependency. Understanding nutrient requirements per crop helps in making informed fertilizer application decisions, improving yield and reducing waste.
+ This boxplot compares the distribution of nitrogen content across different crops. 
+ - Crops like millet, maize and sugercane tend to require higher nitrogen levles as seen from their median values.
+ -  others like barley, cotton show lower nitrogen dependency. Understanding nutrient requirements per crop helps in making informed fertilizer application decisions, improving yield and reducing waste.
    
 7. How do Phosphorus levels vary between different crop types?
+
+#  📊 Insight:
+![Phosphorous_boxplot](https://github.com/user-attachments/assets/25a078dd-7250-44bf-b9b2-ddb295e57d42)
+
+Phosphorus plays a important roles in root development, flowering, and seed development. The analysis shows that phosphorus levels are fairly consistent across most crop types, with only slight variations. 
+- Crops like Barley, cotton and wheat appear to have slightly higher phosphorus, which indicate that they are phosphorus rich soils in the data.
+- Others shows more moderate phosphorus levels, because they all fall within a similar range.
+  
+8. How do Potassium levels vary between different crop types?
+
+#  📊 Insight:
+![potassium_boxplot](https://github.com/user-attachments/assets/48159bbc-debc-4bd6-9a68-64ca773d4482)
+
+Potassium is essential for water regulation, disease resistance, and crop quality.
+- Potassium levels show more noticeable variation across crops compared to phosphorus.
+- Oil seeds, Groundnuts, and Maize indicate higher potassium values, while Sugarcane and Millets show lower levels.
+  
 
 ## ✅ RECOMMENDATION
 
