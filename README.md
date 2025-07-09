@@ -2,7 +2,7 @@
 ![Crop and Soil](https://github.com/user-attachments/assets/8dd51498-a2ab-48af-810b-312bd931bc4d)
 
 ## INTRODUCTION
-  In today's agricultural practice, choosing the right crop for the right soil is critical for soil fertilty and crop production. As global food demand rises and soil degradation becomes more widespread and farmers face increasing pressure to optimize yield, reduce waste, resources and practice sustainability while navigating unpredictable climate conditions. This project addresses these challenges by presenting a crop recommendation system built on real-world soil and crop data which aids farmers select the best crops to grow based on the specific properties of their soil. 
+  In today's agricultural practice, choosing the right crop for the right soil is critical for soil fertilty and crop production. As global food demand rises and soil degradation becomes more widespread and farmers face increasing pressure to optimize yield, reduce waste, resources and practice sustainability while navigating unpredictable climate conditions. This project addresses these challenges by presenting a crop recommendation system built on real world soil and crop data which aids farmers select the best crops to grow based on the specific properties of their soil. 
 
 ## OBJECTIVE
 The primarly objective of this crop recommendation system is to provide accurate and relevant crop recommendation to farmers based on their soil characteristics and external environmental factors. This includes appropriate crops, advising on excessive fertilizer use, and providing irrigation methods to maximize productivity and enhance sustainability.
@@ -36,7 +36,7 @@ The primarly objective of this crop recommendation system is to provide accurate
 ## 🔬 Methodology
 
   This project began with the collection of a soil and crop dataset from Kaggle, which included variables such as crop type, soil nutrient levels (nitrogen, phosphorus, potassium), Fertilizer name, moisture, temperature, humidity, and soil types. The data was imported into jupyter notebook as Crop and Soil dataset.csv, then used data.shape to check for the number of rows and columns in the dataset which resulted to (8000, 9), checked for missing values, and standardizing formats. Exploratory Data Analysis (EDA) was conducted to understand the distribution of individual variables, to uncover patterns in how nutrient levels and environmental factors interact across different crops and soil types.
-  Visualizations were created using Seaborn and Matplotlib to identify trends and correlations—such as how nitrogen levels increase with moisture, while phosphorus and potassium decrease, indicating leaching risks.
+- Visualizations were created using Seaborn and Matplotlib to identify trends and correlations—such as how nitrogen levels increase with moisture, while phosphorus and potassium decrease, indicating leaching risks.
 
 ## 🔑 KEYS QUESTIONS AND INSIGHTS
 
@@ -46,7 +46,7 @@ The primarly objective of this crop recommendation system is to provide accurate
    ![Average NPK Levels per Crop](https://github.com/user-attachments/assets/ddefa1a1-3a4c-4831-8871-fddadb825182)
 
    The average NPK (Nitrogen, Phosphorus, and Potassium) levels vary significantly across different crop types, highlighting the unique nutrient requirements of each. Among all crops analyzed, Millet, Barley, and Oil Seeds recorded the highest concentrations of soil nutrients, indicating that these crops either require or thrive in more nutrient rich conditions.
-This variation is crucial for developing targeted fertilizer recommendations. For instance, high NPK-demand crops like millet and barley may need nutrient-enriched soils, while crops with lower NPK needs can be grown on less fertile soils to avoid over fertilization.
+This variation is crucial for developing targeted fertilizer recommendations. For instance, high NPK demand crops like millet and barley may need nutrient enriched soils, while crops with lower NPK needs can be grown on less fertile soils to avoid over fertilization.
 
 ### 2. Which crops are most commonly represented in the dataset?
    
@@ -60,7 +60,7 @@ This variation is crucial for developing targeted fertilizer recommendations. Fo
    
    📊 Insight: 
    
-   The dataset features a variety of soil types, but clayey and black soils appear most frequently, indicating they are widely used for cultivation in the region. These soils are known for their high nutrient-holding capacity and moisture retention, making them suitable for a range of crops. Understanding the prevalence of these soil types helps in designing location-specific soil management practices and ensuring the right crops are matched to the right soil characteristics.
+   The dataset features a variety of soil types, but clayey and black soils appear most frequently, indicating they are widely used for cultivation in the region. These soils are known for their high nutrient-holding capacity and moisture retention, making them suitable for a range of crops. Understanding the prevalence of these soil types helps in designing location, specific for soil management practices and ensuring the right crops are matched to the right soil characteristics.
 
 ### 4. What is the typical pH range of the soils in the dataset, and are they suitable for common crpos?
    
