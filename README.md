@@ -67,6 +67,7 @@ This variation is crucial for developing targeted fertilizer recommendations. Fo
    📊 Insight:
    
    ![Distribution of soil](https://github.com/user-attachments/assets/a373ae7b-c4aa-4121-985c-285aa63c9c81)
+   
 This histogram displays the distribution of soil pH values in the dataset. Most soil samples fall within a pH range of 5.5 to 7.0, which is generally favorable for crop growth. A pH range between 6.0 and 6.5 is often considered optimal, so it's encouraging that many samples lie within this window. However, a few samples fall into acidic (<5.5) or alkaline (>7.5) ranges, which may require soil treatment like limimg for optimal crop performance.
    
 ### 5. How does environmental factors (Temperature, Moisture, Humidity) influence soil nutrient levels (N, P, K)?
