@@ -36,7 +36,7 @@ The primarly objective of this crop recommendation system is to provide accurate
 ## 🔬 Methodology
 
   This project began with the collection of a soil and crop dataset from Kaggle, which included variables such as crop type, soil nutrient levels (nitrogen, phosphorus, potassium), Fertilizer name, moisture, temperature, humidity, and soil types. The data was imported into jupyter notebook as Crop and Soil dataset.csv, then used data.shape to check for the number of rows and columns in the dataset which resulted to (8000, 9), checked for missing values, and standardizing formats. Exploratory Data Analysis (EDA) was conducted to understand the distribution of individual variables, to uncover patterns in how nutrient levels and environmental factors interact across different crops and soil types.
-- Visualizations were created using Seaborn and Matplotlib to identify trends and correlations—such as how nitrogen levels increase with moisture, while phosphorus and potassium decrease, indicating leaching risks.
+- Visualizations were created using Seaborn and Matplotlib to identify trends and correlations such as how nitrogen levels increase with moisture, while phosphorus and potassium decrease, indicating leaching risks.
 
 ## 🔑 KEYS QUESTIONS AND INSIGHTS
 
