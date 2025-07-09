@@ -78,26 +78,26 @@ This histogram displays the distribution of soil pH values in the dataset. Most 
     The analysis reveals that moisture levels negatively correlate with nitrogen but positively correlate with phosphorus and potassium. This suggests that while wetter soils may help retain phosphorus and potassium, they can also contribute to nitrogen leaching, reducing nitrogen availability for crops.
 - In contrast, temperature and humidity show weak to moderate correlations with soil nutrient levels, indicating they have limited direct effects. However, their indirect impact such as influencing microbial activity, nutrient mineralization, and evaporation should not be overlooked, especially in region with low climate condition.
 
-6. How do Nitrogen levels vary between different crop types?
+### 6. How do Nitrogen levels vary between different crop types?
    
-#  📊 Insight:
+ 📊 Insight:
 ![nitrogen_boxplot](https://github.com/user-attachments/assets/d1905abf-ea0e-412f-894f-28a5bdaa706c)
  This boxplot compares the distribution of nitrogen content across different crops. 
  - Crops like millet, maize and sugercane tend to require higher nitrogen levles as seen from their median values.
  -  others like barley, cotton show lower nitrogen dependency. Understanding nutrient requirements per crop helps in making informed fertilizer application decisions, improving yield and reducing waste.
    
-7. How do Phosphorus levels vary between different crop types?
+### 7. How do Phosphorus levels vary between different crop types?
 
-#  📊 Insight:
+ 📊 Insight:
 ![Phosphorous_boxplot](https://github.com/user-attachments/assets/25a078dd-7250-44bf-b9b2-ddb295e57d42)
 
 Phosphorus plays a important roles in root development, flowering, and seed development. The analysis shows that phosphorus levels are fairly consistent across most crop types, with only slight variations. 
 - Crops like Barley, cotton and wheat appear to have slightly higher phosphorus, which indicate that they are phosphorus rich soils in the data.
 - Others shows more moderate phosphorus levels, because they all fall within a similar range.
   
-8. How do Potassium levels vary between different crop types?
+### 8. How do Potassium levels vary between different crop types?
 
-#  📊 Insight:
+📊 Insight:
 ![potassium_boxplot](https://github.com/user-attachments/assets/48159bbc-debc-4bd6-9a68-64ca773d4482)
 
 Potassium is essential for water regulation, disease resistance, and crop quality.
